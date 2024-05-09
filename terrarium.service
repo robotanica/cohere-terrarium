@@ -1,0 +1,10 @@
+[Unit]
+Description=Run terrarium - python sandbox server
+
+[Service]
+ExecStart=/bin/bash /home/nex/robotanica/cohere-terrarium/start.sh
+User=nex
+Group=nex
+
+[Install]
+WantedBy=multi-user.target
