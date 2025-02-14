@@ -2,6 +2,7 @@
 Description=Run terrarium - python sandbox server
 
 [Service]
+WorkingDirectory=/home/nex/robotanica/cohere-terrarium
 ExecStart=/bin/bash /home/nex/robotanica/cohere-terrarium/start.sh
 User=nex
 Group=nex
